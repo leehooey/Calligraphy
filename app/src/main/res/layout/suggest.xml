@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/suggest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sent"
+        android:background="@drawable/bt_shape"
+        android:gravity="top"
+        android:textColor="@android:color/tertiary_text_light"
+        android:text="您对我们的服务有什么建议请告诉我们,如果方便请留下您邮箱我们会及时与您联系，谢谢合作！"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bt_shape"
+        android:text="发送给我们" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/numbChoose"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_shape"
+        android:layout_width="60dp"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/sizeChoose"
+        android:max="1000"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

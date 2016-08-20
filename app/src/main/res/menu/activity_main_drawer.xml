@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_menu">
+    <group>
+        <item
+            android:id="@+id/textSize"
+            android:icon="@drawable/text_size"
+            android:title="字体大小: 220" />
+        <item
+            android:id="@+id/widths"
+            android:icon="@drawable/picture_width"
+            android:title="图片宽度: 489" />
+        <item
+            android:id="@+id/heights"
+            android:icon="@drawable/picture_height"
+            android:title="图片高度: 359" />
+
+        <item
+            android:id="@+id/textColor"
+            android:icon="@drawable/text_color"
+            android:title="字体颜色: #000000" />
+        <item
+            android:id="@+id/bgColor"
+            android:icon="@drawable/background_color"
+            android:title="背景颜色: #FFFFFF" />
+
+    </group>
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/instruction"
+                android:icon="@drawable/instruction"
+                android:title="功能介绍" />
+            <item
+                android:id="@+id/suggest"
+                android:icon="@drawable/suggest"
+                android:title="意见反馈" />
+            <item
+                android:id="@+id/update"
+                android:icon="@drawable/update"
+                android:title="检查更新" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_software"
+                android:title="推荐给朋友" />
+            <item
+                android:id="@+id/about_me"
+                android:icon="@drawable/about_us"
+                android:title="关于" />
+        </menu>
+    </item>
+
+
+</menu>
